@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css"/>
+<script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
     <h2>Clima en tu país</h2>
     <div class="container" id="div1">
-        <form method="GET" action=" ">
-            <input type="text" name="lugar" placeholder="Ingrese el lugar">
-            
+        <form action="" id="form">
+            <input type="text" id="name" name="name" placeholder="Ingrese el lugar">
+            <button type="button" onclick="getData()">Search</button>
         </form>
-        <button name="submit">Search</button>
+        
     </div>
 
-    <script type="module" src="./index.js"></script>
+    
 </body>
 </html>
