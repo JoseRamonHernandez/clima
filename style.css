@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+h2{
+    color: white;
+    font-size: 4em;
+    text-align: center;
+}
+
+#div1{
+    background-color: blue;
+    
+}
+
+input{
+background-color: blue;
+color: white;
+outline: 0ex;
+border: 0;
+font-size: 1em;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-radius: 10%;
+    border: 0;
+    font-size: 1em;
+    cursor: pointer;
+}
